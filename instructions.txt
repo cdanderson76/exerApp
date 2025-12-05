@@ -1,0 +1,17 @@
+5. GET WORKOUT
+
+
+A. Create a route that will get a specific workout in
+   '/controllers/workout-controller.js'
+
+B. Export the route into '/routes/workouts.js'
+
+C. Ensure that you handle if the workout ID is not located, or if the input does
+   not fit the data type listed in the model.  Return error 404 with 'No such
+   workout'
+
+D. Test this route out in Postman.
+
+
+
+https://www.youtube.com/watch?v=oEHHjs1UVXQ&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=6&pp=iAQB
