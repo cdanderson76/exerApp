@@ -1,0 +1,19 @@
+2. Express Routing and MongoDB
+
+
+A. Create '/routes/workouts.js' and start Express routing inside of it
+
+B. Export the router and import it into 'server.js'
+
+C. Change the 'get' route to use the route in '/routes/workout.js and the endpoint
+   of '/api/workouts/'.
+
+D. Initiate the middleware to parse incoming JSON requests
+
+E. Use your MongoDB connection string in the .env file.  Create '/config/db.js' and
+   create an async function to connect to that database.
+
+
+
+https://www.youtube.com/watch?v=Ll6knx7sFis&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=3
+https://www.youtube.com/watch?v=s0anSjEeua8&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=4&pp=iAQB
