@@ -1,0 +1,15 @@
+4. GET ALL WORKOUTS
+
+
+A. Create a route that will get all workouts in
+   '/controllers/workout-controller.js'
+
+B. Sort the workouts by the date using the 'createdAt' property in descending order
+
+C. Export the route into '/routes/workouts.js'
+
+D. Test this route out in Postman.
+
+
+
+https://www.youtube.com/watch?v=oEHHjs1UVXQ&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=6&pp=iAQB
