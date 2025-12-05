@@ -1,0 +1,25 @@
+3. Models
+
+
+A. Create '/models/workoutModel.js' and define how the workout documents should look.
+   Here are the details:
+
+   -title (string; required)
+   -reps (number; required)
+   -load(number; required)
+   -use timestamps
+
+B. Create and export the model
+
+C. Create '/backend/controllers/workout-controller.js' and create a route that
+   creates workout documents.
+
+D. Import this new route into '/routes/workouts.js'
+
+E. Test this out in Postman to see if creating a document will be successful
+
+F. Check MongoDB to ensure the data was stored
+
+
+
+https://www.youtube.com/watch?v=O8IipcpTmYU&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=5&pp=iAQB
