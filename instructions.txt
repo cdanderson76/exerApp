@@ -1,0 +1,32 @@
+1. Express Server
+
+
+A. Create '/backend/server.js'
+
+B. Change directory into the 'backend' folder
+
+C. Create the 'package.json' file
+
+D. Install the following: express, mongoose, and dotenv
+
+E. Install nodemon as a dependency
+
+F. Enable ES6 imports/modules
+
+G. Create nodemon dev script
+
+H. Start the express app
+
+I. Set up the route handler to send something to the browser
+
+J. Set up MongoDB (notes on thumbdrive) and create your '/backend/.env' file.
+
+K. Set up 'gitIgnore' file to keep from pushing your '.env' file to gitHub
+
+L. Use the PORT and MongoDB connection string inside of the .env file
+   Have the Express app connect by way of PORT in the '.env' file
+   Have an alternate PORT number just in case connection to '.env' file breaks
+
+
+
+https://www.youtube.com/watch?v=8DploTqLstE&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=2
