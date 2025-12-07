@@ -8,7 +8,9 @@ B. Make sure that the ID that is grabbed is a valid ID.
 
 C. Export this route into '/routes/workout.js'.
 
-D. Test this route in Postman.
+D. Install cors and initiate the middleware in 'server.js'
+
+E. Test this route in Postman.
 
 
 
