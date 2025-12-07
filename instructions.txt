@@ -1,0 +1,47 @@
+8. FRONTEND
+
+
+A. Create your frontend folder, and create your Vite app.
+
+B. Install 'react-router-dom' in the 'frontend' directory.
+
+C. Create '/pages/Home.jsx' and return the following boilerplate code:
+
+    <div className="home">
+      <h2></h2>
+    </div>
+
+
+D. Import 'react-router-dom' inside of '/src/App.jsx', and initiate routing for
+   the application.
+
+   Inside of the 'initial tag', use a 'div' with the class of 'pages'
+
+
+E. Create a route pointing to '/' for 'Home.jsx'
+
+F. Change the title tab to 'Workout App'
+
+G. Create '/components/Navbar.jsx'. Use the following boilerplate code:
+
+   <header>
+      <div className="container">
+        <h1></h1>
+      </div>
+    </header>
+
+   When finished, this page should look exactly like it does on the challenge
+   page.
+
+
+H. Use a 'Link' component from react-router-dom. Make this link navigate to '/'
+   Whenever clicking on the 'Workout App' title.
+
+E. Import the '/components/Navbar.jsx' component inside of '/src/App.jsx'.  Do
+   it so that the navbar will show up on all pages no matter what.
+   
+
+
+
+
+https://www.youtube.com/watch?v=bx4nk7kBS10&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=8&pp=iAQB0gcJCSUKAYcqIYzv
