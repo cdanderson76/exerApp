@@ -1,0 +1,41 @@
+9. FETCHING DATA
+
+
+A. In '/pages/Home.jsx', grab the workout data upon load.  Check if the response
+   is ok, and if it is, update potential state.
+
+   NOTE: AT THIS POINT, IF YOU DON'T HAVE STATE CREATED, THEN CREATE IT AND HAVE
+         IT UPDATED
+
+
+B. Console log the data to ensure you're getting it.
+
+C. Create '/components/WorkoutDetails.jsx'.  Use the following boilerplate code
+   and import it into '/pages/Home.jsx':
+
+   <div className="workout-details">
+      <h4></h4>
+      <p><strong></strong></p>
+      <p><strong></strong></p>
+      <p></p>
+    </div>
+
+
+D. In '/pages/Home.jsx', change the boilerplate code to the following:
+
+   <div className="home">
+      <div className="workouts">
+        
+      </div>
+    </div>
+
+   Grab the data that we fetched, logged to the console, but now have it rendered
+   to the browser. ONLY HAVE THE DATA ITERATED OVER IF THERE IS DATA AVAILABLE!
+
+   When finished, your page should look like it does in the challenge repo.
+
+   
+
+
+
+https://www.youtube.com/watch?v=MEab_a19ZGk&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=9&pp=iAQB
