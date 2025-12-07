@@ -1,0 +1,15 @@
+7. UPDATE WORKOUT
+
+
+A. Create a route that will update a specific workout in
+   '/controllers/workout-controller.js'.
+
+B. Make sure that the ID that is grabbed is a valid ID.
+
+C. Export this route into '/routes/workout.js'.
+
+D. Test this route in Postman.
+
+
+
+https://www.youtube.com/watch?v=MwiyQsWSlc0&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=7
