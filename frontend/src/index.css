@@ -90,9 +90,11 @@ form button {
   cursor: pointer;
 }
 .update-button {
+  background-color: rgb(233, 153, 6);
   border: 0;
   color: #fff;
   padding: 10px;
+  margin-left: 10px;
   font-family: "Poppins";
   border-radius: 4px;
   cursor: pointer;
