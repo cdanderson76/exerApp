@@ -1,0 +1,62 @@
+10. FORM
+
+
+A. Download and install axios. Make sure you are in the 'frontend' directory
+
+B. Create '/components/workoutForm.js', and within it, create a function that
+   returns the following boilerplate code:
+ 
+   <form className="create">
+      <h3></h3>
+
+      <label></label>
+      <input type="text"/>
+      
+      <label></label>
+      <input type="text"/>
+      
+      <label></label>
+      <input type="text"/>
+      <button></button>
+      <button className='update-button><button>
+    </form>
+
+   When everything is finished, it should look just as it does on the challenge
+   page.
+
+C. Use axios to send the data to the server.
+
+   NOTE: THERE IS OLD CODE COMMENTED OUT TO SHOW A WAY OF DOING THIS WITHOUT AXIOS
+
+   
+D. Create the following states: 
+   
+   title
+   load
+   reps
+   error
+
+   If there is no data returned (or if the response isn't ok [DEPENDING ON WHICH
+   WAY YOU USED]), use the JSON to return an error.
+
+   If the response IS ok,
+
+E. Import '/components/WorkoutForm.jsx' into '/pages/Home.jsx'.  When doing so,
+   it should look just like it does on the challenge page.
+
+
+F. If an error is produced, have the following boilerplate code rendered to the
+   browser (test this out by excluding one of the fields when attempting to submit):
+
+   <div className="error"></div>
+
+G. Install 'dotenv' for the frontend.
+
+
+G. Create '/frontend/.env' and create a variable for the localhost there. Import
+   it into the fetch request.
+
+   
+
+
+https://www.youtube.com/watch?v=tRmeik-IpUQ&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=10
