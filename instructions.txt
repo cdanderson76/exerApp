@@ -1,0 +1,19 @@
+11. UPDATE WORKOUTS
+
+
+AS OF NOW, YOU CAN ONLY SEE NEW DOCUMENTS WHEN THE PAGE IS REFRESHED.  THIS IS
+BECAUSE OUR LOCAL REACT STATE FOR THE WORKOUTS ISN'T BEING KEPT IN SYNC WITH THE
+DATABASE COLLECTION WHEN WE ADD THE NEW DOCUMENT!
+
+WE NEED THIS UPDATED IN THE HOME PAGE WHENEVER WE ADD A NEW DOCUMENT.
+
+A. In '/pages/Home.jsx', initialize the 'workouts' state to an empty array', then
+   pass its setter function to 'WorkoutForm.jsx'.
+
+B. Inside of '/components/WorkoutForm.jsx', use that setter function to properly
+   update the 'workouts' state in '/pages/Home.jsx' to update as workouts are added
+
+
+
+
+https://www.youtube.com/watch?v=NKsVV7wJcDM&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=11
