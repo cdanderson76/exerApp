@@ -1,0 +1,22 @@
+12. Deleting Data
+
+
+A. In '/components/WorkoutDetails.jsx', add a 'span' below the last 'p' element in
+   the return.
+
+
+B. Add a click handler that will hold the function to delete a workout.  You may
+   need to pass something else in, in order to complete this functionality
+
+   NOTE: ONE THING YOU SHOULD START TO NOTICE IS THAT YOU'LL NEED TO ACCESS THE
+         'WORKOUTS' STATE FROM THE HOME PAGE...YOU SHOULD NOTICE THIS BY NOW.
+
+
+C. If done correctly, you should now be able to delete items directly from the
+   home page.  Check MongoDB to ensure that workouts are also being removed from
+   there.
+
+
+
+
+https://www.youtube.com/watch?v=TcWmmJUG5K4&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=12&pp=iAQB
