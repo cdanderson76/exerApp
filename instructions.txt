@@ -13,6 +13,9 @@ A. In '/pages/Home.jsx', initialize the 'workouts' state to an empty array', the
 B. Inside of '/components/WorkoutForm.jsx', use that setter function to properly
    update the 'workouts' state in '/pages/Home.jsx' to update as workouts are added
 
+   Once this has been completed, you should now be able to see the workouts being
+   updated as they have been added.
+
 
 
 
