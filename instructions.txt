@@ -1,0 +1,20 @@
+13. UPDATING DATA
+
+
+
+A. Copy the necessary code from '/components/WorkoutForm.jsx', and create
+   '/pages/EditWorkout.jsx'.  Recreate a whole form that will grab the data
+   to be edited.
+
+B. Make changes to the '/pages/EditWorkout.jsx' page to where you have an 'Add
+   Workout' button and a 'Cancel' button.
+
+C. Make changes to the '/pages/WorkoutForm.jsx' page to where you have a 'Delete'
+   button and an 'Update' button on each workout.
+
+D. Create '/context/WorkoutContext' so that you are able to use the 'workouts'
+   state in 'Home.jsx'.  Once you have the context working, you can just use IT
+   and remove the local state in 'Home.jsx'.
+
+
+There's no Youtube clip for this!
