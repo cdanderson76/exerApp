@@ -1,0 +1,37 @@
+14. ERROR RESPONSES
+
+
+
+A. Ensure that a readable error is displayed if all fields for creating a workout
+   aren't filled or aren't of the right value type.
+
+
+B. Install Date FNS...a library that helps you format dates: date-fns.  Use it to
+   format the 'createdAt' dates.
+
+
+C. Use the following import inside of /components/WorkoutDetails.jsx:
+
+   import formatDistanceToNow from 'date-fns/formatDistanceToNow';
+
+   Make use of this by using the 'Date' constructor and ensure that 'addSuffix' is
+   true;
+
+   BECAUSE YOU MADE THIS CHANGE, YOU WILL NOW HAVE AN ERROR WHEN TRYING TO EDIT
+   YOUR WORKOUT BECAUSE THE 'createdAt' PROPERTY WILL COME BACK UNDEFINED.  
+
+
+D. Make the adjustment to '/pages/EditWorkout.jsx' to only update the selected
+   workout via matching IDs.
+
+
+E. Modify the date constructor in '/components/WorkoutDetails.jsx' to guard against
+   bad dates...thus crashes
+
+
+F. Ensure there is a message rendering that there are no workouts if there are none
+   showing on the page.
+
+
+
+https://www.youtube.com/watch?v=Hwsj5iS-rA0&t=301s
