@@ -1,0 +1,41 @@
+16. SIGNING UP AND HASHING
+
+
+
+A. Create a static method within 'userModel.js' called 'signup'. This way, we can
+   just call this method for whenever we'd want to sign a user up to the database.
+
+   NOTE: THIS CAN'T BE DONE WITH AN ARROW FUNCTION!!
+
+
+B. Use the static method to see if an email exists.  If it does, 'throw' an
+   error stating that the email is already in use.
+
+   If an email doesn't exist, we have to hash the password.  For this, we need
+   'bcrypt' installed.
+
+
+C. Create a 'salt' to begin password hashing.  We want to use the value of 10.
+
+D. Create a hash and store the password in the database alongside the user's email
+   to create the entire document for this user.
+
+   Return the user (or variable you used to create the user)
+
+
+E. Go to 'user-controller.js' and finish creating the 'signupUser' route. If the
+   user is successfully created, return code 200 with the 'email' and 'user' that
+   we returned in the 'User' model.
+
+   If this is NOT successfull, return error 400 along with 'error.message'.
+
+
+F. Ensure that the 'types' in 'userModel.js' are of CONSTRUCTOR types and not
+   'string' types. (MAKE THEM String, and not 'String');
+
+G. Test this route out in Postman. If successfull, you should be able to create
+   a user account in the database.
+
+
+
+https://www.youtube.com/watch?v=mjZIv4ey0ps&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT&index=3&pp=iAQB
