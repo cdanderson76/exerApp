@@ -1,0 +1,25 @@
+17. EMAIL AND PASSWORD VALIDATION
+
+
+IF THE PASSWORD IS NOT VALID (WITH THE RIGHT AMOUNT OF CHARACTERS FOR EXAMPLE), OR
+IF THE EMAIL IS NOT A VALID EMAIL...THAT IS WHAT THE FOLLOWING LOGIC IS FOR
+
+
+A. Install called 'validator'.
+
+B. Ensure that if there is no email or password, that you THROW' an error that
+   all fields must be filled
+
+C. Import 'validator' into 'userModel.js' and implement it for the email and the
+   password.
+
+   If the password is not legit, throw 'Password not strong enough'
+   If the email is not legit, throw 'Email is not valid'
+
+D. Test out on a created user in Postman.
+
+   NOTE: YOU NEED CAPS, LOWERCASE, NUMBERS, AND A SYMBOL!
+
+
+
+https://www.youtube.com/watch?v=sRFI6L0a38E&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT&index=4
