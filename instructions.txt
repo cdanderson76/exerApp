@@ -1,1 +1,36 @@
+15. ROUTES CONTROLLER MODEL
 
+
+NOTE: THE FULL STACK APP WITHOUT AUTHENTICATION OFFICIALLY FINISHES AT THIS BRANCH!
+
+THIS IS THE BEGINNING OF AUTH, AND WE WILL FOCUS ON THE BACKEND FIRST!
+
+
+
+A. Create '/routes/user.js', set up Express routing, and export it.
+
+B. Create '/controllers/user-controller.js' to and create a 'login' route using
+   the endpoint of '/login'.
+
+   NOTE: THIS WILL BE AN EMPTY ASYNC FUNCTION BECAUSE WE DON'T HAVE A USER MODEL!
+
+
+C. Import this empty function into 'server.js' using the base URL of '/api/user'
+   have a JSON response message of 'login user' for this empty function.
+
+D. Create the 'User' model with the following details and then export it:
+
+   email (type of 'String'; required; unique)
+   password (type of 'String'; required)
+   include timestamps
+
+
+E. Create a an async function called 'signupUser' and just have it return something
+   similar to the previous function that you created, and have it return something
+   similar to the previous function.
+
+
+F. Test these routes out in Postman.
+
+
+https://www.youtube.com/watch?v=b5LDOW8WJ9A&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT&index=2
