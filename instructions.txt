@@ -1,0 +1,26 @@
+18. SIGNING TOKENS
+
+
+CREATE THE TOKEN ON THE SERVER SO WE CAN SEND IT BACK AS A RESPONSE
+
+
+A. Install 'jsonwebtoken' and then import it. Into 'user-controller.js'
+
+B. Create a function called 'createToken' inside of the 'signupUser' async function
+   in 'user-controller.js'. Pass the MongoDB ID as a parameter.
+
+C. Store the 'secret' inside of the '.env' file and call it 'SECRET'.  Use some
+   type of password generator to generate a string for the secret.
+
+D. Finish the 'createToken' function using the secret that you created inside of
+   '.env', and ensure that it expires in 3 days.
+
+E. After you save the user to the database, have the token created, and then pass
+   it back as a response.
+
+F. Test the 'signupUser' route in Postman.  You should now see the token being
+   generated.  Notice how the period separates the header, payload, and secret...
+
+
+
+https://www.youtube.com/watch?v=MsudBMepwO8&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT&index=6&pp=iAQB
