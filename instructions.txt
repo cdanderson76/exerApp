@@ -1,0 +1,34 @@
+19. LOGGING USERS IN
+
+
+WE WILL SEE IF SPECIFIED EMAIL IS IN THE DATABASE, AND IF IT IS, WE WILL COMPARE
+THE PASSWORD AND SEE IF IT MATCHES UP WITH WHAT'S IN THE DATABASE.  IF IT DOES, WE
+WILL SEND A TOKEN TO THE CLIENT FOR LOGIN.
+
+
+A. Create a static method for the login logic.
+
+B. Check for email and password, and if either of those don't exist, throw the
+   error 'All fields must be filled'
+
+C. If the user doesn't exist, throw the error 'Incorrect email'
+
+D. Create a variable called 'match', and compare the passwords using bcrypt.  If
+   the passwords don't match, throw an error stating incorrect password
+
+   If they DO match, return the user (or whatever variable used to find the
+   account)
+
+E. Go to the 'loginUser' function inside of the 'user-controller.js' file and grab
+   the email and password from the request body. 
+
+   Copy the 'try/catch' block of the 'signupUser' function, and this time we want
+   to TRY TO LOGIN the user. 
+
+6. Get rid of the message that sends 'loginUser' in JSON.
+
+7. Test this out in Postman
+
+
+
+https://www.youtube.com/watch?v=Jdt0mygy-74&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT&index=7
