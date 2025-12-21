@@ -25,9 +25,9 @@ E. Go to the 'loginUser' function inside of the 'user-controller.js' file and gr
    Copy the 'try/catch' block of the 'signupUser' function, and this time we want
    to TRY TO LOGIN the user. 
 
-6. Get rid of the message that sends 'loginUser' in JSON.
+F. Get rid of the message that sends 'loginUser' in JSON.
 
-7. Test this out in Postman
+G. Test this out in Postman
 
 
 
