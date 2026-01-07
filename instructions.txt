@@ -1,0 +1,38 @@
+20. REACT AUTH CONTEXT
+
+
+WHEN A USER IS LOGGED IN, YOU NEED TO FIND A WAY TO TRACT THAT STATE
+'GLOBALLY'
+
+
+A. Create '/context/AuthContext.jsx' and create a variable called 'AuthContext' in 
+   which we create the context.  Ensure that you export it
+
+
+B. Create 'AuthContext.Provider' and create the provider. Don't forget to
+   pass the needed state values.
+
+C. Create and export a function called AuthAppContext, and initialize state for
+   'user' by setting it to null
+
+D. Create two functions:
+   -login: pass the user state to this and set the user to user
+   -logout: simply set the user to null
+
+   NOTE: THIS SIMPLIFIES THE PROCESS RATHER THAN USING THE USEREDUCER
+E. Pass the state and function as values within the provider.  Don't forget to pass
+   the children
+
+F. To test, log out the user state with the following: 'AuthContext state: user'
+
+   NOTE: 'user' IS THE STATE VARIABLE!
+
+G. Wrap the entire app in the new context (it's going to wrap the context that is
+   already in place!)
+
+
+NO WAY TO TEST RIGHT NOW, BUT IF NO ERRORS, YOU SHOULD BE GOOD TO GO
+
+
+
+https://www.youtube.com/watch?v=64RiVcXhxN0&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT&index=8&pp=iAQB
