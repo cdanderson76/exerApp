@@ -1,0 +1,51 @@
+21. LOGIN AND SIGNUP FORMS
+
+WE ARE CREATING OUR PAGES FOR LOGING IN AND SIGNING UP
+
+
+
+A. Set the state for email and password
+
+B. Create '/pages/Signup.jsx' and use the following boilerplate code:
+
+   <form className="signup">
+      <h3></h3>
+      <label htmlFor=""></label>
+      <input type='' />
+      <label htmlFor=""></label>
+      <input type='' />
+      <button></button>
+   </form>
+
+C. Use the proper event and functions to be able to submit input from users
+
+D. Create '/pages/Login.jsx', and repeat steps A, B, and C for this page. Make
+   syntax changes where necessary.
+
+--NOW WE NEED TO REGISTER ROUTES FOR BOTH FORMS--
+
+E. Go into 'App.jsx', import the new pages, and set up the appropriate routes
+
+F. Go to '/components/Navbar.jsx' and put in the following boilerplate code below
+   the last 'Link' tag:
+
+   <nav>
+     <div>
+       <Link></Link>
+       <Link></Link>
+     </div>
+   </nav>
+
+   Insert the appropriate information in order to have links to the 'Login' and
+   'Signup' pages.
+
+G. Navigate to the browser and test out the links and pages.  ALSO, try submitting
+   information in the forms (these should be logged to the console if instructions
+   were followed).
+
+   NOTE: YOU SHOULD ALSO SEE IN THE CONSOLE THAT THE 'AuthContext' STATE IS SET TO
+         'NULL'!!  IF YOU HAVE ALL THIS, EVERYTHING IS WORKING GOOD THUS FAR!
+
+
+
+https://www.youtube.com/watch?v=WsRBmwNkv3Q&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT
