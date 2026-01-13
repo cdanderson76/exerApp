@@ -45,7 +45,10 @@ K. Go to the signup page and use a created account to try signing in again.  If 
    if you can see the 'AuthContext' state change in the console, then the Sign Up
    form is working as it should.
 
-   NOTE: YOU WILL ALSO NOW SEE THE USER IN MONGODB!!!
+   NOTE: YOU WILL ALSO NOW SEE THE USER IN MONGODB!!!  ALSO CHECK UNDER
+         APPLICATION IN LOCAL STORAGE.  UNDER THE LOCAL STORAGE CATEGORY, AND THE
+         'http://localhost:5173' SECTION, YOU SHOULD SEE THE DETAILS OF THE
+         LOGIN INFO!
 
 
 
