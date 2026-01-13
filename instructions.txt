@@ -1,5 +1,6 @@
 22. USESIGNUP HOOK
 
+WE ARE CREATING A HOOK TO SIGN USERS UP!!
 
 
 A. Create '/context/SignupContext.jsx'
