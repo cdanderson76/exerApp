@@ -1,0 +1,52 @@
+22. USESIGNUP HOOK
+
+
+
+A. Create '/context/SignupContext.jsx'
+
+B. Import 'useState', 'useAuthContext', and axios
+
+C. Start creating the context by creating the 'useSignup' hook.  Inside of this
+   hook, create the states of 'error' and 'isLoading'.
+
+D. Create an async function called 'signup', but pass in email and password for the
+   parameters (the creds that the user wants to sign up with).
+
+E. Inside the function, set the 'isLoading' state to 'true', and the 'error' state
+   to 'false'.  Now, create a response that will reach out to the backend API of
+   '/api/user/signup'.  Use the 'ok' method to assist in the validation (this will
+   be a POST request)
+
+F. In the 'try' block, save the user to local storage if everything is ok with the
+   login process.
+
+G. Update the 'AuthContext' by using the 'useAuthContext' hook and the logged in
+   user.
+
+H. Go into '/pages/Signup.jsx' and bring in the values that are now exposed
+   globally:  signup, isLoading, and error.  Change the console log inside of the
+   'handleSubmit' function to 'await signup', passing in the state values of
+    'email' and 'password'.
+
+I. Below the 'Sign Up' button, write a conditional that says 'if there is an error,
+   create the following:
+
+   <div className='error'></div> with the error state in between the tags
+
+J. If 'isLoading' is true, we want to disable the button.
+
+K. Go to the signup page and use a created account to try signing in again.  If it
+   says 'Email already in use' in the browser, this check is ok.
+
+   Try a user that's not in the system with a weak password.  If you get 'password
+   not strong enough' in the app, then that check is ok.
+
+   Try that same user that's not in the system, but with a strong enough password.
+   if you can see the 'AuthContext' state change in the console, then the Sign Up
+   form is working as it should.
+
+   NOTE: YOU WILL ALSO NOW SEE THE USER IN MONGODB!!!
+
+
+
+https://www.youtube.com/watch?v=3yaHWZdH0FM&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT&index=10
